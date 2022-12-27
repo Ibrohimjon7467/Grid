@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text{
+  position: absolute;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+}
+.img{
+  position: absolute;
+}
+.relativ{
+  position: relative;
+  border-radius: 8px;
+}
+.block1{
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 203px 200px;
+  margin: 100px auto 0;
+  width: 1152px;
+  height: 474px;
+  padding: 45px 23px;
+  gap: 8px 26px;
+  border-radius: 20px;
+  background-color: #f7d5d5;
+}
+.graphic{
+  width: 354px;
+  height: 384px;
+  background: #755cde;
+}
+.block2{
+  display: grid;
+  grid-template-columns: 160px 160px;
+  column-gap: 28px;
+}
+.graph-img{
+  top: 24px;
+  left: 196px;
+}
+.graph-text{
+  top: 310px;
+  left: 24px;
+}
+.ui{
+  width: 164px;
+  height: 192px;
+  background: #f6a560;
+}
+.ui-img{
+  top: 24px;
+  left: 76px;
+}
+.ui-text{
+  top: 128px;
+  left: 24px;
+}
+.apps{
+  width: 164px;
+  height: 192px;
+  background: #f39e9e;
+}
+.app-img{
+  top: 24px;
+  left: 76px;
+}
+.app-text{
+  top: 128px;
+  left: 24px;
+}
+.illust{
+  width: 354px;
+  height: 172px;
+  grid-column: 2;
+  background: #eb7565;
+}
+.illus-img {
+  top: 24px;
+  left: 200px;
+}
+.illus-text{
+  top: 104px;
+  left: 24px;
+}
+.rasm{
+  width: 354px;
+  height: 192px;
+  grid-row: 1;
+  grid-column: 3;
+  background: #61c4b7;
+}
+.rasm-img{
+  top: 24px;
+  left: 170px;
+}
+.rasm-text{
+  top: 128px;
+  left: 24px;
+}
+.motion{
+  width: 354px;
+  height: 172px;
+  grid-column: 3;
+  grid-row: 2;
+  background: #552049;
+}
+.motion-img{
+  top: 24px;
+  left: 206px;
+}
+.motion-text{
+  top: 104px;
+  left: 24px;
+}
